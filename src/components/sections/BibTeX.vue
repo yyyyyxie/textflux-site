@@ -3,13 +3,14 @@ export default {
   data() {
     return {
       bibtex: [
-        "@article{junyaohu2023template,",
-        "    title={Academic Project Page Template Vue},",
-        "    author={Hu, Junyao},",
-        "    journal={GitHub},",
-        "    year={2023}",
-        "}",
+        "@article{xie2024dntextspotter,",
+        "    title={DNTextSpotter: Arbitrary-Shaped Scene Text Spotting via Improved Denoising Training},",
+        "    author={Xie, Yu and Qiao, Qian and Gao, Jun and Wu, Tianxiang and Fan, Jiaqing and Zhang, Yue and Zhang, Jielei and Sun, Huyang},",
+        "    journal={arXiv preprint arXiv:2408.00355},",
+        "    year={2024}",
+        "}"
       ],
+
     }
   },
   methods: {

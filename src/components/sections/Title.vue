@@ -7,13 +7,13 @@ import { Document, Files, MagicStick, Picture, DataAnalysis, Film } from '@eleme
 const logo = './logo.png'
 
 // 标题
-const title = 'Academic Project Page Template'
+const title = 'TextFlux: An OCR-Free DiT Model for High-Fidelity Multilingual Scene Text Synthesis'
 
 // 标题颜色
 const title_color = '#000000'
 
 // 标题补充，没有则置为''即可
-const title_supp = ' (Vue based)'
+const title_supp = ''
 
 // 标题补充颜色
 const title_supp_color = '#42B883'
@@ -24,22 +24,58 @@ const btn_color = '#444444'
 // 作者清单（包含作者姓名、头像、主页、地址序号）
 const authors = [
   {
-    name: "Your Name",
-    icon: "./icon/junyaohu.jpg",
-    homepage: "https://junyaohu.github.io/",
-    address_flag: "1,#"
+    name: "Yu Xie",
+    // icon: "./icon/junyaohu.jpg",
+    // homepage: "https://junyaohu.github.io/",
+    address_flag: "1"
   },
   {
-    name: "Anya Forger",
-    icon: "./icon/anya.jpg",
-    homepage: "https://www.bilibili.com/video/BV1jv4y1P7Bb",
-    address_flag: "2,#"
+    name: "Jielei Zhang",
+    // icon: "./icon/anya.jpg",
+    // homepage: "https://www.bilibili.com/video/BV1jv4y1P7Bb",
+    address_flag: "1"
   },
   {
-    name: "BugCat Capoo",
-    icon: "./icon/capoo.webp",
-    homepage: "https://zh.moegirl.org.cn/%E7%8C%AB%E7%8C%AB%E8%99%AB%E5%92%96%E6%B3%A2",
-    address_flag: "1,*"
+    name: "Pengyu Chen",
+    // icon: "./icon/capoo.webp",
+    // homepage: "https://zh.moegirl.org.cn/%E7%8C%AB%E7%8C%AB%E8%99%AB%E5%92%96%E6%B3%A2",
+    address_flag: "1"
+  },
+  {
+    name: "Ziyue Wang",
+    address_flag: "1"
+  },
+  {
+    name: "Weihang Wang",
+    address_flag: "1"
+  },
+  {
+    name: "Longwen Gao",
+    address_flag: "1"
+  },
+  {
+    name: "Peiyi Li",
+    address_flag: "1"
+  },
+  {
+    name: "Huyang Sun",
+    address_flag: "1"
+  },
+  {
+    name: "Qiang Zhang",
+    address_flag: "1"
+  },
+  {
+    name: "Qian Qiao",
+    address_flag: "2"
+  },
+  {
+    name: "Jiaqing Fan",
+    address_flag: "2"
+  },
+  {
+    name: "Zhouhui Lian",
+    address_flag: "3"
   },
 ]
 
@@ -47,15 +83,21 @@ const authors = [
 const addresses = [
   {
     address_flag: "1",
-    name: "Home University",
-    icon: "./icon/home.png",
-    homepage: "https://github.com/hmuniversity"
+    name: "bilibili Inc",
+    // icon: "./icon/home.png",
+    // homepage: "https://github.com/hmuniversity"
   },
   {
     address_flag: "2",
-    name: "IKUN University",
-    icon: "./icon/ikun.avif",
-    homepage: "https://www.bilibili.com/video/BV178411Y7QB"
+    name: "Soochow University",
+    // icon: "./icon/ikun.avif",
+    // homepage: "https://www.bilibili.com/video/BV178411Y7QB"
+  },
+  {
+    address_flag: "3",
+    name: "Peking University",
+    // icon: "./icon/ikun.avif",
+    // homepage: "https://www.bilibili.com/video/BV178411Y7QB"
   },
 ]
 
@@ -77,49 +119,51 @@ const emphases = [
 // 提供引导资料链接
 const buttons = [
   {
-    disabled: true,
+    disabled: false,
     name: "Paper",
+    link: "https://github.com/yyyyyxie/textflux",
     component: Document,
   },
-  {
-    disabled: true,
-    name: "中译版",
-    component: Document,
-  },
+  // {
+  //   disabled: true,
+  //   name: "中译版",
+  //   component: Document,
+  // },
   {
     disabled: false,
     name: "Code",
-    link: "https://github.com/JunyaoHu/academic-project-page-template-vue",
+    link: "https://github.com/yyyyyxie/textflux",
     component: Files,
   },
   {
     disabled: false,
     name: "Demo",
-    link: "https://junyaohu.github.io/academic-project-page-template-vue",
+    link: "https://github.com/yyyyyxie/textflux",
+    // link: "https://junyaohu.github.io/academic-project-page-template-vue",
     component: MagicStick,
   },
-  {
-    disabled: true,
-    name: "Poster",
-    component: Picture,
-  },
-  {
-    disabled: true,
-    name: "Slide",
-    component: DataAnalysis,
-  },
-  {
-    disabled: false,
-    name: "Video (减论)",
-    link: "https://www.bilibili.com/video/BV15XkgYiE73/",
-    component: Film,
-  },
-  {
-    disabled: false,
-    name: "Video (Tutorial)",
-    link: "https://www.bilibili.com/video/BV1oUrfYzEqZ",
-    component: Film,
-  },
+  // {
+  //   disabled: true,
+  //   name: "Poster",
+  //   component: Picture,
+  // },
+  // {
+  //   disabled: true,
+  //   name: "Slide",
+  //   component: DataAnalysis,
+  // },
+  // {
+  //   disabled: false,
+  //   name: "Video (减论)",
+  //   link: "https://www.bilibili.com/video/BV15XkgYiE73/",
+  //   component: Film,
+  // },
+  // {
+  //   disabled: false,
+  //   name: "Video (Tutorial)",
+  //   link: "https://www.bilibili.com/video/BV1oUrfYzEqZ",
+  //   component: Film,
+  // },
 ]
 
 </script>
@@ -128,16 +172,16 @@ const buttons = [
   <div>
 
     <!-- 最新消息提示 -->
-    <el-row justify="center">
+    <!-- <el-row justify="center">
       <el-col :span="24">
         <el-alert title="🔥 This template is still under development." type="success" />
       </el-col>
-    </el-row>
+    </el-row> -->
 
-    <!-- 文章logo -->
+    <!-- 文章logo
     <el-row v-if="logo" justify="center">
       <el-image :src="logo" class="logo" fit="cover" />
-    </el-row>
+    </el-row> -->
 
     <!-- 文章标题 -->
     <el-row justify="center">
@@ -152,7 +196,7 @@ const buttons = [
     <!-- 作者名单 -->
     <el-row justify="center">
       <a :href=author.homepage v-for="author in authors">
-        <el-button class="title-button" type="primary" text>
+        <el-button class="title-author-button" type="primary" text>
           <el-avatar v-if="author.icon" :size="40" :src="author.icon" />
           <span class="author">
             {{ author.name }}<sup v-if="author.address_flag" class="name_sup">{{ author.address_flag }}</sup>
@@ -160,6 +204,7 @@ const buttons = [
         </el-button>
       </a>
     </el-row>
+
 
     <!-- 地址名单 -->
     <el-row justify="center">
@@ -174,14 +219,14 @@ const buttons = [
     </el-row>
 
     <!-- 共一和通讯提示内容 -->
-    <el-row justify="center" class="con-cor">
+    <!-- <el-row justify="center" class="con-cor">
         {{ con_and_corresponding_author }}
-    </el-row>
+    </el-row> -->
 
     <!-- 强调内容 -->
-    <el-row justify="center" class="emphasis" v-for="emphasis in emphases">
+    <!-- <el-row justify="center" class="emphasis" v-for="emphasis in emphases">
         {{ emphasis }}
-    </el-row>
+    </el-row> -->
 
     <!-- 提供引导按钮 -->
     <el-row justify="center" style="margin-bottom: 20px;">
@@ -208,12 +253,16 @@ const buttons = [
 .paper-title {
   font-family: "MyFont", Verdana, sans-serif;
   letter-spacing: 2px;
-  font-size: 42px;
-  margin: 32px;
+  font-size: 28px;
+  margin: 10px;
   text-align: center;
 }
 
 /* 姓名和地址按钮 */
+.title-author-button {
+  margin: 0px 0px;
+}
+
 .title-button {
   margin: 10px 3px;
 }
@@ -232,13 +281,13 @@ const buttons = [
 /* 姓名属性 */
 .author {
   font-size: 18px;
-  margin-left: 3px;
+  margin-left: 1px;
 }
 
 /* 姓名上标属性 */
 .name_sup {
   color: #606266; 
-  margin-left: 3px;
+  margin-left: 1px;
 }
 
 /* 地址属性 */

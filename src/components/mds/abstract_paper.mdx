@@ -1,0 +1,23 @@
+# Abstract
+
+Diffusion-based scene text synthesis has progressed rapidly, yet existing methods commonly rely on additional visual conditioning modules and require large-scale annotated data to support multilingual generation. 
+In this work, we revisit the necessity of complex auxiliary modules and further explore an approach that simultaneously ensures glyph accuracy and achieves high-fidelity scene integration, by leveraging diffusion models' inherent capabilities for contextual reasoning.
+To this end, we introduce TextFlux, a DiT-based framework that enables multilingual scene text synthesis.
+The advantages of TextFlux can be summarized as follows:
+(1) OCR-free model architecture. TextFlux eliminates the need for OCR encoders (additional visual conditioning modules) that are specifically used to extract visual text-related features.
+(2) Strong multilingual scalability. TextFlux is effective in low-resource multilingual settings, and achieves strong performance in newly added languages with fewer than 1,000 samples.
+(3) Streamlined training setup. TextFlux is trained with only 1\% of the training data required by competing methods.
+(4) Controllable multi-line text generation. 
+TextFlux offers flexible multi-line synthesis with precise line-level control, outperforming methods restricted to single-line or rigid layouts.
+Extensive experiments and visualizations demonstrate that TextFlux outperforms previous methods in both qualitative and quantitative evaluations.
+
+
+
+### Key Features of TextFlux
+
+* **OCR-Free:** Simplified architecture without OCR encoders.
+* **High-Fidelity & Contextual Styles:** Precise rendering, stylistically consistent with scenes.
+* **Multilingual & Low-Resource:** Strong performance across languages, adapts to new languages with minimal data (e.g., <1,000 samples).
+* **Zero-Shot Generalization:** Renders characters unseen during training.
+* **Controllable Multi-Line Text:** Flexible multi-line synthesis with line-level control.
+* **Data Efficient:** Uses a fraction of data (e.g., ~1%) compared to other methods.

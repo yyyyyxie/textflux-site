@@ -42,12 +42,12 @@ export default {
 
 <template>
   <Title/>
-  <Carousel/>
+  <!-- <Carousel/> -->
   <Video/>
   <Abstract/>
   <Markdown/>
-  <Latex/>
-  <Table/>
+  <!-- <Latex/> -->
+  <!-- <Table/>
   <Collapse/>
   <Echart/>
   <Model3D/>
@@ -55,7 +55,7 @@ export default {
   <SeletionForComparison/>
   <ImageSliderInner/>
   <ImageSlider/>
-  <ImageSelector/>
+  <ImageSelector/> -->
   <BibTeX/>
-  <Comment/>
+  <!-- <Comment/> -->
 </template>
