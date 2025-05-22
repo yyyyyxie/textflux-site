@@ -23,7 +23,7 @@ export default defineConfig({
       ],
     }),
   ],
-  base:'/textflux.github.io/',
+  base:'/textflux-site/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
