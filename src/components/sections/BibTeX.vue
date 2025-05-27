@@ -3,13 +3,26 @@ export default {
   data() {
     return {
       bibtex: [
-        "@article{xie2024dntextspotter,",
-        "    title={DNTextSpotter: Arbitrary-Shaped Scene Text Spotting via Improved Denoising Training},",
-        "    author={Xie, Yu and Qiao, Qian and Gao, Jun and Wu, Tianxiang and Fan, Jiaqing and Zhang, Yue and Zhang, Jielei and Sun, Huyang},",
-        "    journal={arXiv preprint arXiv:2408.00355},",
-        "    year={2024}",
+        "@misc{xie2025textfluxocrfreeditmodel,",
+        "    title        = {TextFlux: An OCR-Free DiT Model for High-Fidelity Multilingual Scene Text Synthesis},",
+        "    author       = {Yu Xie and Jielei Zhang and Pengyu Chen and Ziyue Wang and Weihang Wang and Longwen Gao and Peiyi Li and Huyang Sun and Qiang Zhang and Qian Qiao and Jiaqing Fan and Zhouhui Lian},",
+        "    year         = {2025},",
+        "    eprint       = {2505.17778},",
+        "    archivePrefix = {arXiv},",
+        "    primaryClass = {cs.CV},",
+        "    url          = {https://arxiv.org/abs/2505.17778}",
         "}"
       ],
+
+// @misc{xie2025textfluxocrfreeditmodel,
+//       title={TextFlux: An OCR-Free DiT Model for High-Fidelity Multilingual Scene Text Synthesis}, 
+//       author={Yu Xie and Jielei Zhang and Pengyu Chen and Ziyue Wang and Weihang Wang and Longwen Gao and Peiyi Li and Huyang Sun and Qiang Zhang and Qian Qiao and Jiaqing Fan and Zhouhui Lian},
+//       year={2025},
+//       eprint={2505.17778},
+//       archivePrefix={arXiv},
+//       primaryClass={cs.CV},
+//       url={https://arxiv.org/abs/2505.17778}, 
+// }
 
     }
   },

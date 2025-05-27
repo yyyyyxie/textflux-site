@@ -83,7 +83,7 @@ const authors = [
 const addresses = [
   {
     address_flag: "1",
-    name: "bilibili Inc",
+    name: "bilibili Inc.",
     // icon: "./icon/home.png",
     // homepage: "https://github.com/hmuniversity"
   },
@@ -95,7 +95,7 @@ const addresses = [
   },
   {
     address_flag: "3",
-    name: "Peking University",
+    name: "Wangxuan Institute of Computer Technology, Peking University",
     // icon: "./icon/ikun.avif",
     // homepage: "https://www.bilibili.com/video/BV178411Y7QB"
   },
@@ -121,7 +121,7 @@ const buttons = [
   {
     disabled: false,
     name: "Paper",
-    link: "https://github.com/yyyyyxie/textflux",
+    link: "https://arxiv.org/abs/2505.17778",
     component: Document,
   },
   // {
