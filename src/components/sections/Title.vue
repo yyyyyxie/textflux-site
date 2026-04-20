@@ -42,10 +42,6 @@ const authors = [
     address_flag: "1"
   },
   {
-    name: "Ziyue Wang",
-    address_flag: "1"
-  },
-  {
     name: "Weihang Wang",
     address_flag: "1"
   },
@@ -58,24 +54,12 @@ const authors = [
     address_flag: "1"
   },
   {
-    name: "Huyang Sun",
-    address_flag: "1"
-  },
-  {
-    name: "Qiang Zhang",
-    address_flag: "1"
-  },
-  {
     name: "Qian Qiao",
-    address_flag: "2"
-  },
-  {
-    name: "Jiaqing Fan",
-    address_flag: "2"
+    address_flag: "1"
   },
   {
     name: "Zhouhui Lian",
-    address_flag: "3"
+    address_flag: "2"
   },
 ]
 
@@ -89,12 +73,6 @@ const addresses = [
   },
   {
     address_flag: "2",
-    name: "Soochow University",
-    // icon: "./icon/ikun.avif",
-    // homepage: "https://www.bilibili.com/video/BV178411Y7QB"
-  },
-  {
-    address_flag: "3",
     name: "Wangxuan Institute of Computer Technology, Peking University",
     // icon: "./icon/ikun.avif",
     // homepage: "https://www.bilibili.com/video/BV178411Y7QB"
